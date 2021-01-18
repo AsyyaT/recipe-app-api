@@ -29,3 +29,6 @@ class UserAdmin(BaseUserAdmin):
 @admin.register(models.Tag)
 class TagAdmin(admin.ModelAdmin):
     pass
+
+
+admin.site.register(models.Ingredient)
