@@ -32,3 +32,4 @@ class TagAdmin(admin.ModelAdmin):
 
 
 admin.site.register(models.Ingredient)
+admin.site.register(models.Recipe)
